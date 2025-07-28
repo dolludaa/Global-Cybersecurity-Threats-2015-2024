@@ -1,33 +1,33 @@
-> Cybersecurity Threats Analysis 2015–2024
-> Goal: identify key trends, risks, and patterns in global cyberattacks from 2015 to 2024.
-> 
-> Main questions:
-> Which attack types are increasing over time?
-> Which industries lose the most money?
-> What sources are behind the attacks?
-> Which defense methods reduce resolution time?
-> 
-> Dataset overview:
-> 3,000 rows, 10 features
-> Country, Year, Attack Type, Target Industry
-> Financial Loss (Million USD), Affected Users
-> Attack Source, Vulnerability Type
-> Defense Used, Incident Resolution Time (hours)
+Cybersecurity Threats Analysis 2015–2024
+Goal: identify key trends, risks, and patterns in global cyberattacks from 2015 to 2024.
 
-> Each row represents a single attack event.
-> 
-> Country: the country where the incident occurred
-> Year: the year when the attack took place
-> Attack Type: the method used by the attackers, such as phishing, ransomware, or DDoS
-> Target Industry: the sector targeted, including healthcare, banking, government, and others
-> Financial Loss (in Million $): the estimated financial damage caused by the attack
-> Number of Affected Users: the number of individuals or user accounts impacted
-> Attack Source: the origin of the attack, such as nation-state, hacker group, insider, or unknown
-> Security Vulnerability Type: the exploited weakness, such as unpatched software or weak passwords
-> Defense Mechanism Used: the protection that was in place during the attack, such as firewall or antivirus
-> Incident Resolution Time (in Hours): how long it took to respond and resolve the incident
+Main questions:
+Which attack types are increasing over time?
+Which industries lose the most money?
+What sources are behind the attacks?
+Which defense methods reduce resolution time?
 
-> Data Source: https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
+Dataset overview:
+3,000 rows, 10 features
+Country, Year, Attack Type, Target Industry
+Financial Loss (Million USD), Affected Users
+Attack Source, Vulnerability Type
+Defense Used, Incident Resolution Time (hours)
+
+Each row represents a single attack event.
+
+Country: the country where the incident occurred
+Year: the year when the attack took place
+Attack Type: the method used by the attackers, such as phishing, ransomware, or DDoS
+Target Industry: the sector targeted, including healthcare, banking, government, and others
+Financial Loss (in Million $): the estimated financial damage caused by the attack
+Number of Affected Users: the number of individuals or user accounts impacted
+Attack Source: the origin of the attack, such as nation-state, hacker group, insider, or unknown
+Security Vulnerability Type: the exploited weakness, such as unpatched software or weak passwords
+Defense Mechanism Used: the protection that was in place during the attack, such as firewall or antivirus
+Incident Resolution Time (in Hours): how long it took to respond and resolve the incident
+
+Data Source: https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
 
 ```python
 import pandas as pd
